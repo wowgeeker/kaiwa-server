@@ -16,6 +16,7 @@ $ docker run -d \
      -p 5432:5432 \
      -e POSTGRESQL_USER=kaiwa \
      -e POSTGRESQL_PASS=mypassword \
+     -e POSTGRESQL_DB=kaiwa \
      orchardup/postgresql
 ```
 
