@@ -58,6 +58,8 @@ $ docker run -d \
      -e LDAP_DN=cn=admin,dc=myorga \
      -e LDAP_PWD=mypassword \
      -e LDAP_GROUP=myorgagroup \
+     -e LDAP_USER_BASE=ou=users,dc=myorga \
+     -e LDAP_GROUP_BASE=ou=groups,dc=myorga \
      sebu77/kaiwa-server
 ```
 
